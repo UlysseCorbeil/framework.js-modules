@@ -73,6 +73,9 @@
 		return {
 			page: {
 				fragmentChanged: onFragmentChanged
+			},
+			articleChanger: {
+				enter: onFragmentChanged
 			}
 		};
 	};
