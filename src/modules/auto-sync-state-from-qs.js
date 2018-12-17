@@ -73,6 +73,10 @@
 		syncState();
 	};
 	
+	var onArticleChangerEnter = function () {
+		syncState();
+	};
+
 	var init = function () {
 		syncState();
 	};
@@ -83,7 +87,7 @@
 				fragmentChanged: onFragmentChanged
 			},
 			articleChanger: {
-				enter: onFragmentChanged
+				enter: onArticleChangerEnter
 			}
 		};
 	};
