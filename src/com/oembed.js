@@ -90,9 +90,7 @@
 					checkpointEvent.track(perc);
 				});
 				
-				if (!!params.finish) {
-					oembedProvider.finish(player, params.finish);
-				}
+				oembedProvider.finish(player, params.finish);
 			});
 		};
 		
