@@ -37,6 +37,7 @@
 					.attr('src', 'https://www.youtube.com/embed/' + id +
 						'?feature=oembed&autoplay=' + autoPlay +
 						'&mute=' + autoPlay +
+						'&loop=' + loop +
 						'&origin=' + document.location.origin +
 						'&enablejsapi=1&version=3&html5=1&rel=' + rel + (extra || ''));
 				
